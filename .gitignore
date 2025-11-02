@@ -1,0 +1,59 @@
+# -----------------------
+# Godot 4
+# -----------------------
+.import/
+.export/
+.cache/
+mono_temp/
+.local/
+logs/
+
+# Ignore Godot editor temporary files
+*.import
+*.prev
+*.remap
+
+# Ignore export templates (if you keep them locally)
+*.tpz
+*.pck
+
+# -----------------------
+# OS files
+# -----------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------
+# Language / build artefacts
+# -----------------------
+node_modules/
+dist/
+build/
+
+# -----------------------
+# Images / assets that can be regenerated
+# (optional: uncomment if you prefer not to check them in)
+# -----------------------
+# .import/
+# *.png
+# *.tres
+
+# -----------------------
+# Environments / secrets
+# -----------------------
+.env
+*.secret
+
+# -----------------------
+# Git metadata
+# -----------------------
+*.lock
