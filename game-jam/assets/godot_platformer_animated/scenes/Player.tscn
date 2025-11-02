@@ -1,0 +1,20 @@
+
+[gd_scene load_steps=2]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1")
+gravity_scale = 1.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames")
+
+[sub_resource type="SpriteFrames" id="SpriteFrames"]
+animations = {
+    "walk": {
+        "frames": ["res://art/characters/walk_0.png", "res://art/characters/walk_1.png", "res://art/characters/walk_2.png"],
+        "loop": true,
+        "speed": 6.0
+    }
+}
+
+[ext_resource type="Script" path="res://scripts/Player.gd" id="1"]
